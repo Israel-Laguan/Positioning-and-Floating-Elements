@@ -1,0 +1,36 @@
+.navbar {
+  justify-content: center;
+  display: block;
+
+  &__left {
+    float: left;
+  }
+
+  &__center {
+    display: inline-block;
+  }
+
+  &__right {
+    float: right;
+  }
+}
+
+.navLogo {
+  height: 53px;
+  width: 250px;
+}
+
+.navButton {
+  border: 1px solid rgb(83, 83, 192);
+  background-color: #6288a5;
+  color: white;
+  padding: 11px 12px 4px 12px;
+  margin: 5px;
+  border-radius: 3px;
+  font-size: 10rem;
+  font-weight: bolder;
+  text-align: baseline;
+  height: 34px;
+  font-family: "Libre Franklin", sans-serif;
+  letter-spacing: 1px;
+}
