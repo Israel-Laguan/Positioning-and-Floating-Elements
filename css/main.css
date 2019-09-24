@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
 *,
 *::before,
 *::after {
@@ -276,42 +276,72 @@ progress {
   vertical-align: baseline;
 }
 
+nav {
+  height: 40px;
+  border-bottom: 1px solid #d6d6d6;
+  font-family: "Libre Franklin", sans-serif;
+}
+
 .navbar {
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  width: 100%;
   display: block;
 }
 
 .navbar__left {
+  top: 40px;
   float: left;
+  width: 33.33%;
+  padding: 8px;
 }
 
 .navbar__center {
-  display: inline-block;
+  position: absolute;
+  right: 45%;
 }
 
 .navbar__right {
+  top: 50px;
   float: right;
 }
 
+.navItems {
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.navItems > span {
+  top: 15px;
+  position: absolute;
+  font-weight: 900;
+  font-size: 12px;
+  letter-spacing: 1px;
+}
+
+.navItems > span:hover {
+  -webkit-text-decoration: underline solid black;
+          text-decoration: underline solid black;
+}
+
 .navLogo {
-  height: 53px;
-  width: 250px;
+  height: 45px;
+  width: 220px;
 }
 
 .navButton {
   border: 1px solid #5353c0;
   background-color: #6288a5;
   color: white;
-  padding: 11px 12px 4px 12px;
-  margin: 5px;
+  padding: 5px 12px 2px 12px;
+  margin: 3px;
   border-radius: 3px;
   font-size: 10rem;
   font-weight: bolder;
   text-align: baseline;
-  height: 34px;
-  font-family: "Libre Franklin", sans-serif;
+  height: 30px;
   letter-spacing: 1px;
+}
+
+main {
+  background-color: gray;
 }
 /*# sourceMappingURL=main.css.map */

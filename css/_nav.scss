@@ -1,36 +1,63 @@
+nav {
+  height: 40px;
+  border-bottom: 1px solid rgb(214, 214, 214);
+  font-family: "Libre Franklin", sans-serif;
+}
+
 .navbar {
-  justify-content: center;
+  width: 100%;
   display: block;
 
   &__left {
+    top: 40px;
     float: left;
+    width: 33.33%;
+    padding: 8px;
   }
 
   &__center {
-    display: inline-block;
+    position: absolute;
+    right: 45%;
   }
 
   &__right {
+    top: 50px;
     float: right;
   }
 }
 
+.navItems {
+  padding: 5px 15px;
+  text-align: center;
+
+  &>span{
+    top: 15px;
+    position: absolute;
+    font-weight: 900;
+    font-size: 12px;
+    letter-spacing: 1px;
+  }
+
+  &>span:hover {
+    text-decoration: underline solid black;
+  }
+}
+
 .navLogo {
-  height: 53px;
-  width: 250px;
+  height: 45px;
+  width: 220px;
 }
 
 .navButton {
   border: 1px solid rgb(83, 83, 192);
   background-color: #6288a5;
   color: white;
-  padding: 11px 12px 4px 12px;
-  margin: 5px;
+  padding: 5px 12px 2px 12px;
+  margin: 3px;
   border-radius: 3px;
   font-size: 10rem;
   font-weight: bolder;
   text-align: baseline;
-  height: 34px;
-  font-family: "Libre Franklin", sans-serif;
+  height: 30px;
   letter-spacing: 1px;
 }
