@@ -305,12 +305,17 @@ nav {
 }
 
 .navItems {
-  padding: 5px 15px;
+  padding: 3px 15px;
   text-align: center;
+  border: none;
+}
+
+.navItems > img {
+  height: 14px;
 }
 
 .navItems > span {
-  top: 15px;
+  top: 12px;
   position: absolute;
   font-weight: 900;
   font-size: 12px;
