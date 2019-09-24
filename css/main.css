@@ -372,11 +372,19 @@ main {
   margin: 0 auto;
 }
 
+.content__articleImg {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .content__mainContent {
   margin-top: 30px;
   font-weight: 300;
-  font-size: 24px;
-  letter-spacing: 0.5px;
+  font-size: 23px;
+}
+
+.content__mainContent > p {
+  margin: 20px 0px;
 }
 
 .caption {
@@ -390,5 +398,9 @@ main {
   padding-bottom: 40px;
   font-size: 12px;
   color: #999999;
+}
+
+.--captionContent {
+  width: 800px;
 }
 /*# sourceMappingURL=main.css.map */
