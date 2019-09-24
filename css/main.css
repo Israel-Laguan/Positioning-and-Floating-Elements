@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800&display=swap");
 *,
 *::before,
 *::after {
@@ -343,5 +344,51 @@ nav {
   text-align: baseline;
   height: 30px;
   letter-spacing: 1px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  font-family: "Neuton";
+  display: block;
+  width: 45%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content__mainTitle {
+  margin-top: 50px;
+  font-size: 42px;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.content__coverImg {
+  padding-top: 40px;
+  width: 68vw;
+  margin: 0 auto;
+}
+
+.content__mainContent {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.caption {
+  width: 68vw;
+  margin: 0 auto;
+  text-align: left;
+  color: #6d6d6d;
+}
+
+.caption__credits {
+  padding-bottom: 40px;
+  font-size: 12px;
+  color: #999999;
 }
 /*# sourceMappingURL=main.css.map */

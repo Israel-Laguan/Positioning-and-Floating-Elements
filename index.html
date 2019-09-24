@@ -1,55 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Positioning and Floating Elements</title>
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>Positioning and Floating Elements</title>
-  <link rel="stylesheet" href="css/main.css" />
-</head>
-
-<body>
-  <header>
-    <nav>
-      <ul class="navbar">
-        <li class="navbar__left">
-          <button class="navItems">
-            <img src="assets/icon/menu-button.png" alt="menu">
-          </button>
-          <button class="navItems">
-            <img src="assets/icon/searching-magnifying-glass.png" alt="search">
-          </button>
-          <a href="https://www.nytimes.com/section/science/space" class="navItems">
-            <span>
-              SPACE AND COSMOS
-            </span>
-          </a>
-        </li>
-        <li class="navbar__center">
-          <a href="https://www.nytimes.com/">
-            <img src="assets/img/logo.png" alt="NYT" class="navLogo" />
-          </a>
-        </li>
-        <li class="navbar__right">
-          <a href="https://www.nytimes.com/subscription">
-            <button class="navButton">
-              SUBSCRIBE NOW
+  <body>
+    <header>
+      <nav>
+        <ul class="navbar">
+          <li class="navbar__left">
+            <button class="navItems">
+              <img src="assets/icon/menu-button.png" alt="menu" />
             </button>
-          </a>
-          <a href="https://myaccount.nytimes.com/auth/login">
-            <button class="navButton">
-              LOGIN
+            <button class="navItems">
+              <img
+                src="assets/icon/searching-magnifying-glass.png"
+                alt="search"
+              />
             </button>
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <footer hidden>
-    <div>Icons made by <a href="https://www.flaticon.com/<?=_('authors').'/'?>google" title="Google">Google</a> from <a
-        href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-  </footer>
-</body>
-
+            <a
+              href="https://www.nytimes.com/section/science/space"
+              class="navItems"
+            >
+              <span>
+                SPACE AND COSMOS
+              </span>
+            </a>
+          </li>
+          <li class="navbar__center">
+            <a href="https://www.nytimes.com/">
+              <img src="assets/img/logo.png" alt="NYT" class="navLogo" />
+            </a>
+          </li>
+          <li class="navbar__right">
+            <a href="https://www.nytimes.com/subscription">
+              <button class="navButton">
+                SUBSCRIBE NOW
+              </button>
+            </a>
+            <a href="https://myaccount.nytimes.com/auth/login">
+              <button class="navButton">
+                LOGIN
+              </button>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="content">
+        <h1 class="content__mainTitle">
+          Space Ripples Reveal <br />
+          Big Bang’s Smoking Gun
+        </h1>
+      </div>
+      <img
+        src="./assets/img/cosmos.jpg"
+        alt="cover"
+        class="content__coverImg"
+      />
+      <div class="caption">
+        <caption>
+          Alan Guth was one of the first physicists to hypothesize the existence
+          of inflation, which explains how the
+          <br />universe expanded so uniformly and so quickly in the instant
+          after the Big Bang 13.8 billion years ago.
+          <br />
+          <p class="caption__credits">Rick Friedman for The New York Times</p>
+        </caption>
+      </div>
+      <div class="content">
+        <article class="content__mainContent">
+          CAMBRIDGE, Mass. — One night late in 1979, an itinerant young
+          physicist named Alan Guth, with a new son and a year’s appointment at
+          Stanford, stayed up late with his notebook and equations, venturing
+          far beyond the world of known physics. He was trying to understand why
+          there was no trace of some exotic particles that should have been
+          created in the Big Bang. Instead he discovered what might have made
+          the universe bang to begin with. A potential hitch in the presumed
+          course of cosmic evolution could have infused space itself with a
+          special energy that exerted a repulsive force, causing the universe to
+          swell faster than the speed of light for a prodigiously violent
+          instant. If true, the rapid engorgement would solve paradoxes like why
+          the heavens look uniform from pole to pole and not like a jagged,
+          warped mess. The enormous ballooning would iron out all the wrinkles
+          and irregularities. Those particles were not missing, but would be
+          diluted beyond detection, like spit in the ocean. “SPECTACULAR
+          REALIZATION,” Dr. Guth wrote across the top of the page and drew a
+          double box around it. Sign up for Science Times We’ll bring you
+          stories that capture the wonders of the human body, nature and the
+          cosmos. SIGN UP On Monday, Dr. Guth’s starship came in. Radio
+          astronomers reported that they had seen the beginning of the Big Bang,
+          and that his hypothesis, known undramatically as inflation, looked
+          right. Reaching back across 13.8 billion years to the first sliver of
+          cosmic time with telescopes at the South Pole, a team of astronomers
+          led by John M. Kovac of the Harvard-Smithsonian Center for
+          Astrophysics detected ripples in the fabric of space-time — so-called
+          gravitational waves — the signature of a universe being wrenched
+          violently apart when it was roughly a trillionth of a trillionth of a
+          trillionth of a second old. They are the long-sought smoking-gun
+          evidence of inflation, proof, Dr. Kovac and his colleagues say, that
+          Dr. Guth was correct.
+        </article>
+      </div>
+    </main>
+    <footer hidden>
+      <div>
+        Icons made by
+        <a
+          href="https://www.flaticon.com/<?=_('authors').'/'?>google"
+          title="Google"
+          >Google</a
+        >
+        from
+        <a href="https://www.flaticon.com/" title="Flaticon"
+          >www.flaticon.com</a
+        >
+      </div>
+    </footer>
+  </body>
 </html>
