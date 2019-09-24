@@ -314,4 +314,12 @@ progress {
   font-family: "Libre Franklin", sans-serif;
   letter-spacing: 1px;
 }
+
+footer > nav {
+  margin: 0  auto;
+}
+
+.footerNav {
+  margin: 0  auto;
+}
 /*# sourceMappingURL=main.css.map */
