@@ -31,11 +31,11 @@ nav {
   text-align: center;
   border: none;
 
-  &>img{
+  & > img {
     height: 14px;
   }
 
-  &>span{
+  & > span {
     top: 12px;
     position: absolute;
     font-weight: 900;
@@ -43,7 +43,7 @@ nav {
     letter-spacing: 1px;
   }
 
-  &>span:hover {
+  & > span:hover {
     text-decoration: underline solid black;
   }
 }
