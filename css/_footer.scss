@@ -1,8 +1,14 @@
 footer>nav{
-    margin: 0  auto;
+    margin: 20px auto;
+    width: 68vw;
 }
 
 .footerNav {
+color: gray;
+font-size: 10px;
 
-    margin: 0  auto;
+&__items{
+    display: inline;
+    margin: 0px 10px;
+}
 }
