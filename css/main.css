@@ -353,4 +353,10 @@ footer > nav {
 .footerNav {
   margin: 0  auto;
 }
+
+.footerSeparator {
+  width: 68vw;
+  height: 1px;
+  color: grey;
+}
 /*# sourceMappingURL=main.css.map */
