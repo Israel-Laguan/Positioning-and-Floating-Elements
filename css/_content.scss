@@ -26,19 +26,17 @@ main {
   &__articleImg {
     width: 800px;
     margin: 0 auto;
-    }
-    
+  }
+
   &__mainContent {
     margin-top: 30px;
     font-weight: 300;
     font-size: 23px;
 
-    &>p{
+    & > p {
       margin: 20px 0px;
     }
-    
   }
-
 }
 
 .caption {
@@ -57,4 +55,40 @@ main {
 
 .--captionContent {
   width: 800px;
+}
+
+.InflationDiagram {
+  width: 68vw;
+  margin: 60px auto;
+
+  &__header{
+    font-family: 'Neuto', serif;
+    text-align: left;
+
+    &>h3{
+      font-size: 20rem;
+    }
+
+    &>p{
+      color: rgb(104, 107, 109);
+    }
+  }
+
+  &__section {
+    display: inline-block;
+    width: 16.1vw;
+    height: 290px;
+    text-align: left;
+    padding: 10px;
+
+    & > img {
+      width: 15vw;
+    }
+  }
+
+  &__separator {
+    align-self: left;
+    text-align: left;
+    margin: 15px;
+  }
 }

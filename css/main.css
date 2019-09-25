@@ -403,4 +403,42 @@ main {
 .--captionContent {
   width: 800px;
 }
+
+.InflationDiagram {
+  width: 68vw;
+  margin: 60px auto;
+}
+
+.InflationDiagram__header {
+  font-family: 'Neuto', serif;
+  text-align: left;
+}
+
+.InflationDiagram__header > h3 {
+  font-size: 20rem;
+}
+
+.InflationDiagram__header > p {
+  color: #686b6d;
+}
+
+.InflationDiagram__section {
+  display: inline-block;
+  width: 16.1vw;
+  height: 290px;
+  text-align: left;
+  padding: 10px;
+}
+
+.InflationDiagram__section > img {
+  width: 15vw;
+}
+
+.InflationDiagram__separator {
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  text-align: left;
+  margin: 15px;
+}
 /*# sourceMappingURL=main.css.map */
