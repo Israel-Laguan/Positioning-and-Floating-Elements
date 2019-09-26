@@ -60,7 +60,7 @@ main {
 
 .InflationDiagram {
   width: 68vw;
-  margin: 60px auto;
+  margin: 0px auto;
 
   &__header {
     font-family: "Neuto", serif;
@@ -80,10 +80,15 @@ main {
     width: 16.1vw;
     height: 290px;
     text-align: left;
-    padding: 10px;
+    margin-top: 20px;
 
     & > img {
-      width: 15vw;
+      width: 200px;
+      height: 100px;
+    }
+
+    & > p {
+      font-size: 12px;
     }
   }
 

@@ -407,7 +407,7 @@ main {
 
 .InflationDiagram {
   width: 68vw;
-  margin: 60px auto;
+  margin: 0px auto;
 }
 
 .InflationDiagram__header {
@@ -428,11 +428,16 @@ main {
   width: 16.1vw;
   height: 290px;
   text-align: left;
-  padding: 10px;
+  margin-top: 20px;
 }
 
 .InflationDiagram__section > img {
-  width: 15vw;
+  width: 200px;
+  height: 100px;
+}
+
+.InflationDiagram__section > p {
+  font-size: 12px;
 }
 
 .InflationDiagram__separator {
