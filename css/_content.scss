@@ -59,28 +59,36 @@ main {
 }
 
 .InflationDiagram {
-  width: 68vw;
+  width: 1000px;
   margin: 0px auto;
 
   &__header {
-    font-family: "Neuto", serif;
+    font-family: "Neuton", serif;
     text-align: left;
 
     & > h3 {
-      font-size: 20rem;
+      font-size: 25rem;
+      margin-left: 40px;
     }
 
     & > p {
+      font-size: 16rem;
       color: rgb(104, 107, 109);
+      margin-top: 5px;
+      margin-bottom: 10px;
+      margin-left: 40px;
+      margin-right: 40px;
     }
   }
 
   &__section {
     display: inline-block;
-    width: 16.1vw;
+    width: 220px;
     height: 290px;
     text-align: left;
     margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
 
     & > img {
       width: 200px;
@@ -95,7 +103,7 @@ main {
   &__separator {
     align-self: left;
     text-align: left;
-    margin: 15px;
+    margin-left: 40px;
   }
 }
 
