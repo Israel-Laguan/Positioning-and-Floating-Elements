@@ -349,6 +349,14 @@ nav {
   height: 30px;
 }
 
+footer > nav {
+  margin: 0  auto;
+}
+
+.footerNav {
+  margin: 0  auto;
+}
+
 main {
   width: 100%;
   text-align: center;
@@ -370,18 +378,6 @@ main {
   letter-spacing: 1px;
 }
 
-footer > nav {
-  margin: 0  auto;
-}
-
-.footerNav {
-  margin: 0  auto;
-}
-
-.footerSeparator {
-  width: 68vw;
-  height: 1px;
-  color: grey;
 .content__coverImg {
   padding-top: 40px;
   width: 68vw;
@@ -559,5 +555,11 @@ footer > nav {
   margin-top: 7px;
   margin-bottom: 13px;
   font-size: 12px;
+}
+
+.footerSeparator {
+  width: 68vw;
+  height: 1px;
+  color: grey;
 }
 /*# sourceMappingURL=main.css.map */
