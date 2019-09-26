@@ -6,7 +6,8 @@ main {
 .content {
   font-family: "Neuton";
   display: block;
-  width: 45%;
+  min-width: 600px;
+  max-width: 45%;
   margin: 0 auto;
   text-align: left;
 
