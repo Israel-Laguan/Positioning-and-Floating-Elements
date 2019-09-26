@@ -381,6 +381,7 @@ main {
   margin-top: 30px;
   font-weight: 300;
   font-size: 23px;
+  clear: both;
 }
 
 .content__mainContent > p {
@@ -410,7 +411,7 @@ main {
 }
 
 .InflationDiagram__header {
-  font-family: 'Neuto', serif;
+  font-family: "Neuto", serif;
   text-align: left;
 }
 
@@ -440,5 +441,49 @@ main {
       align-self: left;
   text-align: left;
   margin: 15px;
+}
+
+.articleSocial {
+  margin: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: left;
+}
+
+.articleSocial__title {
+  float: left;
+  margin-bottom: 25px;
+}
+
+.articleSocial__date {
+  clear: left;
+  float: left;
+  margin-bottom: 35px;
+}
+
+.articleSocial__buttons {
+  position: relative;
+  float: right;
+  margin-bottom: 15px;
+}
+
+.articleSocial__buttonIcon {
+  margin-bottom: 6px;
+  margin-left: 7px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.articleSocial__counter {
+  font-size: 11px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.--resized {
+  width: 28px;
+  margin-bottom: 0px;
 }
 /*# sourceMappingURL=main.css.map */
