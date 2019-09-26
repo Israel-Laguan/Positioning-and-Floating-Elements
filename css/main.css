@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800&display=swap");
 *,
 *::before,
 *::after {
@@ -152,7 +153,6 @@ summary {
   display: list-item;
 }
 
-/* Forms, Input and Buttons */
 button,
 input,
 optgroup,
@@ -304,6 +304,10 @@ nav {
   float: right;
 }
 
+.navbar__right > a {
+  float: right;
+}
+
 .navItems {
   padding: 3px 15px;
   text-align: center;
@@ -336,13 +340,33 @@ nav {
   border: 1px solid #5353c0;
   background-color: #6288a5;
   color: white;
-  padding: 5px 12px 2px 12px;
+  padding: 8px 12px 2px 10px;
   margin: 3px;
   border-radius: 3px;
   font-size: 10rem;
   font-weight: bolder;
-  text-align: baseline;
+  text-align: center;
   height: 30px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+}
+
+.content {
+  font-family: "Neuton";
+  display: block;
+  min-width: 600px;
+  max-width: 45%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.content__mainTitle {
+  margin-top: 50px;
+  font-size: 42px;
+  font-style: italic;
   letter-spacing: 1px;
 }
 
@@ -358,5 +382,182 @@ footer > nav {
   width: 68vw;
   height: 1px;
   color: grey;
+.content__coverImg {
+  padding-top: 40px;
+  width: 68vw;
+  margin: 0 auto;
+}
+
+.content__articleImg {
+  width: 800px;
+  margin: 0 auto;
+}
+
+.content__mainContent {
+  margin-top: 30px;
+  font-weight: 300;
+  font-size: 23px;
+  clear: both;
+}
+
+.content__mainContent > p {
+  margin: 20px 0px;
+}
+
+.caption {
+  width: 68vw;
+  margin: 0 auto;
+  text-align: left;
+  color: #6d6d6d;
+}
+
+.caption__credits {
+  padding-bottom: 40px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.--captionContent {
+  width: 800px;
+}
+
+.InflationDiagram {
+  width: 1000px;
+  margin: 0px auto;
+}
+
+.InflationDiagram__header {
+  font-family: "Neuton", serif;
+  text-align: left;
+}
+
+.InflationDiagram__header > h3 {
+  font-size: 25rem;
+  margin-left: 40px;
+}
+
+.InflationDiagram__header > p {
+  font-size: 16rem;
+  color: #686b6d;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.InflationDiagram__section {
+  display: inline-block;
+  width: 220px;
+  height: 290px;
+  text-align: left;
+  margin-top: 20px;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+.InflationDiagram__section > img {
+  width: 200px;
+  height: 100px;
+}
+
+.InflationDiagram__section > p {
+  font-size: 12px;
+}
+
+.InflationDiagram__separator {
+  -ms-flex-item-align: left;
+      -ms-grid-row-align: left;
+      align-self: left;
+  text-align: left;
+  margin-left: 40px;
+}
+
+.articleSocial {
+  margin: 0 auto;
+  display: block;
+  width: 45%;
+  text-align: left;
+}
+
+.articleSocial__title {
+  float: left;
+  margin-bottom: 25px;
+}
+
+.articleSocial__date {
+  clear: left;
+  float: left;
+  margin-bottom: 35px;
+}
+
+.articleSocial__buttons {
+  position: relative;
+  float: right;
+  margin-bottom: 15px;
+}
+
+.articleSocial__buttonIcon {
+  margin-bottom: 6px;
+  margin-left: 7px;
+  margin-right: 7px;
+  cursor: pointer;
+}
+
+.articleSocial__counter {
+  font-size: 11px;
+  position: absolute;
+  right: 10px;
+  top: 4px;
+  cursor: pointer;
+}
+
+.--resized {
+  width: 28px;
+  margin-bottom: 0px;
+}
+
+.sidebar {
+  position: absolute;
+  top: 1100px;
+  right: 0px;
+  width: 400px;
+}
+
+.sidebar__content {
+  width: 220px;
+  float: right;
+  margin-right: 80px;
+}
+
+.sidebar__content > h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.sidebar__content > p {
+  font-size: 11px;
+  margin-bottom: 5px;
+  padding: 2px;
+  color: #3d3d3d;
+}
+
+.sidebar__pick {
+  width: 80px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.--sidebar {
+  height: 35px;
+  width: 190px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.--editorsPick {
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 13px;
+  font-size: 12px;
 }
 /*# sourceMappingURL=main.css.map */
