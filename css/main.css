@@ -503,4 +503,49 @@ main {
   width: 28px;
   margin-bottom: 0px;
 }
+
+.sidebar {
+  position: absolute;
+  top: 1100px;
+  right: 0px;
+  width: 400px;
+}
+
+.sidebar__content {
+  width: 220px;
+  float: right;
+  margin-right: 80px;
+}
+
+.sidebar__content > h3 {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+
+.sidebar__content > p {
+  font-size: 11px;
+  margin-bottom: 5px;
+  padding: 2px;
+  color: #3d3d3d;
+}
+
+.sidebar__pick {
+  width: 80px;
+  float: left;
+  margin-bottom: 15px;
+}
+
+.--sidebar {
+  height: 35px;
+  width: 190px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.--editorsPick {
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 13px;
+  font-size: 12px;
+}
 /*# sourceMappingURL=main.css.map */

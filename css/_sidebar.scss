@@ -1,0 +1,44 @@
+.sidebar {
+  position: absolute;
+  top: 1100px;
+  right: 0px;
+  width: 400px;
+
+  &__content {
+    width: 220px;
+    float: right;
+    margin-right: 80px;
+
+    & > h3 {
+      font-size: 15px;
+      margin-bottom: 7px;
+    }
+
+    & > p {
+      font-size: 11px;
+      margin-bottom: 5px;
+      padding: 2px;
+      color: rgb(61, 61, 61);
+    }
+  }
+
+  &__pick {
+    width: 80px;
+    float: left;
+    margin-bottom: 15px;
+  }
+}
+
+.--sidebar {
+  height: 35px;
+  width: 190px;
+  padding-top: 8px;
+  font-size: 12px;
+}
+
+.--editorsPick {
+  float: right;
+  margin-top: 7px;
+  margin-bottom: 13px;
+  font-size: 12px;
+}
