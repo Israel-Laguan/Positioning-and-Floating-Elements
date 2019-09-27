@@ -731,7 +731,7 @@ body {
 .overlay {
   font-family: "Libre Franklin", sans-serif;
   position: absolute;
-  bottom: 0px;
+  bottom: 1px;
   width: 100%;
   display: block;
   border-top: 1px solid black;
@@ -742,7 +742,7 @@ body {
   position: absolute;
   padding: 19px;
   width: 57%;
-  bottom: 0px;
+  bottom: 1px;
   text-align: right;
 }
 
@@ -751,12 +751,12 @@ body {
   float: right;
   width: 30%;
   padding: 20px 5px;
-  bottom: 0px;
+  bottom: 1px;
   text-align: right;
 }
 
 .overlay__subscribe > img {
-  padding: 0px 200px 0px 35px;
+  padding: 1px 200px 1px 35px;
   float: right;
   height: 14px;
 }
