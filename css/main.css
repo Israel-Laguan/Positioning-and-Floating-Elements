@@ -4,7 +4,7 @@
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -48,7 +48,7 @@ dd {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -101,7 +101,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -137,7 +137,7 @@ sup {
 
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -249,7 +249,7 @@ fieldset {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -328,7 +328,7 @@ progress {
 
 .navItems > span:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .navLogo {
@@ -379,7 +379,7 @@ footer > nav {
 .footerMenu small:hover,
 .footerMenu td:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .footerMenu__goTo {
@@ -394,7 +394,8 @@ footer > nav {
   color: #4e4e4e;
 }
 
-.footerMenu__big, .footerMenu__small {
+.footerMenu__big,
+.footerMenu__small {
   padding-left: 10px;
   border-left: 1px solid #e7e7e7;
 }
@@ -446,7 +447,7 @@ body {
 }
 
 .content {
-  font-family: "Neuton" sans-serif;
+  font-family: "Neuton", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: block;
   min-width: 600px;
   max-width: 45%;
@@ -545,8 +546,8 @@ body {
 
 .InflationDiagram__separator {
   -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  -ms-grid-row-align: left;
+  align-self: left;
   text-align: left;
   margin-left: 40px;
 }
@@ -709,7 +710,7 @@ body {
 }
 
 .mostPopular > p {
-  font-family: "Neuton" sans-serif;
+  font-family: "Neuton", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   line-height: 29px;
   font-size: 20px;
   margin: 15px 1px;
