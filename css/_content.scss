@@ -9,7 +9,7 @@ body {
 }
 
 .content {
-  font-family: "Neuton";
+  font-family: "Neuton" sans-serif;
   display: block;
   min-width: 600px;
   max-width: 45%;
@@ -41,7 +41,7 @@ body {
     clear: both;
 
     & > p {
-      margin: 20px 0px;
+      margin: 20px;
     }
   }
 }
@@ -65,7 +65,7 @@ body {
 
 .InflationDiagram {
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
 
   &__header {
     font-family: "Neuton", serif;
@@ -153,7 +153,6 @@ body {
 
 .--resized {
   width: 28px;
-  margin-bottom: 0px;
 }
 
 .--underContent {
