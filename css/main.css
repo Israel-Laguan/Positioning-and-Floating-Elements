@@ -682,6 +682,7 @@ body {
 }
 
 .gallery__articlePreview {
+  display: inline-block;
   width: 270px;
   height: 300px;
 }
