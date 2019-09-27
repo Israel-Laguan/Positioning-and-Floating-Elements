@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800&display=swap");
+
 *,
 *::before,
 *::after {
@@ -105,7 +106,6 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-  text-decoration: underline dotted;
 }
 
 b,
