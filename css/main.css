@@ -437,6 +437,7 @@ footer > nav {
 main {
   width: 100%;
   text-align: center;
+  margin-bottom: 90px;
 }
 
 body {
@@ -655,14 +656,13 @@ body {
 }
 
 .related {
-  width: 100vw;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 .gallery {
-  margin-top: 70px;
   border-top: 1px solid black;
-  float: left;
-  margin-left: 70px;
+  width: 857px;
 }
 
 .gallery__caption {
@@ -685,6 +685,7 @@ body {
   display: inline-block;
   width: 270px;
   height: 300px;
+  margin: 10px 13px 10px 0px;
 }
 
 .gallery__articlePreview > img {
@@ -694,6 +695,30 @@ body {
 .gallery__articlePreview > small {
   font-size: 9px;
   color: #636363;
+}
+
+.mostPopular {
+  float: right;
+  border-top: 1px solid black;
+  width: 300px;
+}
+
+.mostPopular__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.mostPopular > p {
+  font-family: "Neuton";
+  line-height: 29px;
+  font-size: 20px;
+  margin: 15px 0px;
+}
+
+.mostPopular > hr {
+  border: 0.5px solid #e2e2e2;
+  background-color: aqua;
+  color: white;
 }
 
 .footerSeparator {
