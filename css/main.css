@@ -14,6 +14,7 @@ html {
 }
 
 body {
+  position: relative;
   font-family: sans-serif;
   font-size: 14rem;
   font-weight: 400;
@@ -24,6 +25,9 @@ body {
 
 main {
   display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 90px;
 }
 
 template {
@@ -376,6 +380,11 @@ footer > nav {
   line-height: 20px;
 }
 
+.gallery__articlePreview > small {
+  font-size: 9px;
+  color: #636363;
+}
+
 .footerMenu small:hover,
 .footerMenu td:hover {
   -webkit-text-decoration: underline solid black;
@@ -436,16 +445,6 @@ footer > nav {
   margin-right: 10px;
 }
 
-main {
-  width: 100%;
-  text-align: center;
-  margin-bottom: 90px;
-}
-
-body {
-  position: relative;
-}
-
 .content {
   font-family: "Neuton", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   display: block;
@@ -494,7 +493,7 @@ body {
 .caption__credits {
   padding-bottom: 40px;
   font-size: 12px;
-  color: #999999;
+  color: #999;
 }
 
 .--captionContent {
@@ -691,11 +690,6 @@ body {
 
 .gallery__articlePreview > img {
   width: 270px;
-}
-
-.gallery__articlePreview > small {
-  font-size: 9px;
-  color: #636363;
 }
 
 .mostPopular {
