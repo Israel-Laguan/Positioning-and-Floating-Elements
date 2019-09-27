@@ -1,0 +1,84 @@
+footer > nav {
+  margin: 20px auto;
+  width: 68vw;
+}
+
+.footerMenu::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  background: rgb(231, 231, 231);
+  bottom: 100%;
+  left: 0;
+}
+
+.footerMenu {
+  position: relative;
+  font-family: "Libre Franklin", sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  width: 80vw;
+  margin: 5px auto;
+  overflow-x: auto;
+  letter-spacing: 0.1px;
+  line-height: 20px;
+
+  & small:hover,
+  td:hover {
+    text-decoration: underline solid black;
+  }
+
+  &__goTo {
+    color: slategrey;
+    text-align: end;
+  }
+
+  &__sections {
+    width: 200px;
+    font-weight: 700;
+    font-size: 11.5px;
+    color: rgb(78, 78, 78);
+  }
+
+  &__big,
+  &__small {
+    padding-left: 10px;
+    border-left: 1px solid rgb(231, 231, 231);
+  }
+
+  &__big > img,
+  &__big > h3 {
+    display: inline;
+  }
+}
+
+.--hr {
+  width: 5px;
+  border-bottom: 1px solid rgb(231, 231, 231);
+}
+
+.footerMenu::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: rgb(231, 231, 231);
+  top: 100%;
+  left: 0;
+}
+
+.footerLogo {
+  height: 44px;
+  width: 198px;
+}
+
+.footerNav {
+  color: gray;
+  font-size: 10px;
+
+  &__items {
+    display: inline;
+    margin: 0px 10px;
+  }
+}

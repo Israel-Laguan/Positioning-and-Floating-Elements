@@ -3,6 +3,10 @@ main {
   text-align: center;
 }
 
+body {
+  position: relative;
+}
+
 .content {
   font-family: "Neuton";
   display: block;
@@ -150,4 +154,16 @@ main {
 .--resized {
   width: 28px;
   margin-bottom: 0px;
+}
+
+.--underContent {
+  margin-top: 40px;
+  padding-right: 10px;
+}
+
+.--lastButton {
+  clear: left;
+  float: left;
+  width: 300px;
+  margin-top: 40px;
 }

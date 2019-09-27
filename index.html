@@ -10,7 +10,7 @@
 
   <body>
     <header>
-      <nav>
+      <nav class="headerNav">
         <ul class="navbar">
           <li class="navbar__left">
             <button class="navItems">
@@ -589,39 +589,92 @@
           </small>
         </div>
       </div>
+      <div class="articleSocial">
+          <div class="navButton --sidebar --lastButton">
+              SIGN UP
+            </div>
+        </div>
+        <div class="articleSocial --underContent">
+          <div class="articleSocial__buttons">
+            <img
+              src="./assets/icon/facebook.png"
+              alt="social"
+              class="articleSocial__buttonIcon"
+            />
+            <img
+              src="./assets/icon/twitter.png"
+              alt="social"
+              class="articleSocial__buttonIcon"
+            />
+            <img
+              src="./assets/icon/close-envelope.png"
+              alt="social"
+              class="articleSocial__buttonIcon"
+            />
+            <img
+              src="./assets/icon/share-option.png"
+              alt="social"
+              class="articleSocial__buttonIcon"
+            />
+            <img
+              src="./assets/icon/arrow.png"
+              alt="social"
+              class="articleSocial__buttonIcon --resized"
+            />
+            <img
+              src="./assets/icon/bubble.png"
+              alt="social"
+              class="articleSocial__buttonIcon --resized"
+            />
+            <span class="articleSocial__counter">360</span>
+          </div>
+        </div>
     </main>
     <div class="sidebar">
       <aside class="sidebar__content">
-        <h3>Sign up for Science Times</h3>
+        <h3>Sign up for Science <br> Times</h3>
         <p>
-          We’ll bring you stories that capture the wonders of the human body,
-          nature and the cosmos.
+          We’ll bring you stories that <br> capture the wonders of the <br> human body,
+          nature and the <br> cosmos.
         </p>
         <div class="navButton --sidebar">
           SIGN UP
         </div>
       </aside>
+    </div>
 
-      <div class="sidebar">
-          <aside class="sidebar__content">
-            <h5>Editors’ Picks</h5>
-            <hr>
-            <div>
-                <img class="sidebar__pick" src="./assets/img/editorpick1.jpg" alt="pic1">
-                <span class="--editorsPick">
-                    Around the Movie <br> World in 17 Days at <br> the New York Film <br> Festival
-                </span>
-            </div>
-            <div>
-                <span class="--editorsPick">
-                  <br>
-                    After Testifying <br> Against the Bloods, <br> Can Tekashi 69 <br> Disappear?
-                  </span>
-                <img class="sidebar__pick" src="./assets/img/editorpick2.jpg" alt="pic2">
-                
-            </div>
-          </aside>
-      
+    <div class="sidebar --editor">
+      <aside class="sidebar__content">
+        <h5>Editors’ Picks</h5>
+        <hr />
+        <div>
+          <img
+            class="sidebar__pick"
+            src="./assets/img/editorpick1.jpg"
+            alt="pic1"
+          />
+          <span class="--editorsPick">
+            Around the Movie <br />
+            World in 17 Days at <br />
+            the New York Film <br />
+            Festival
+          </span>
+        </div>
+        <div>
+          <span class="--editorsPick">
+            <br />
+            After Testifying <br />
+            Against the Bloods, <br />
+            Can Tekashi 69 <br />
+            Disappear?
+          </span>
+          <img
+            class="sidebar__pick"
+            src="./assets/img/editorpick2.jpg"
+            alt="pic2"
+          />
+        </div>
+      </aside>
     </div>
 
     <footer hidden>
@@ -638,5 +691,320 @@
         >
       </div>
     </footer>
+
+    <footer>
+      <table class="footerMenu">
+        <tr class="footerMenu__row">
+          <td>
+            <a href="https://www.nytimes.com/">
+              <img src="assets/img/logo.png" alt="NYT" class="footerLogo" />
+            </a>
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td class="footerMenu__goTo">
+            <small>Go to Home Page >></small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td class="footerMenu__sections">
+            NEWS
+          </td>
+          <td class="footerMenu__sections">
+            OPINION
+          </td>
+          <td class="footerMenu__sections">
+            ARTS
+          </td>
+          <td class="footerMenu__sections">
+            LIVING
+          </td>
+          <td class="footerMenu__sections">
+            MORE
+          </td>
+          <td class="footerMenu__sections">
+            SUBSCRIBE
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Home Page
+          </td>
+          <td>
+            Today's Opinion
+          </td>
+          <td>
+            Today's Art
+          </td>
+          <td>
+            Automobiles
+          </td>
+          <td>
+            Read Center
+          </td>
+          <td class="footerMenu__big">
+            <img src="assets/icon/delivery.png" alt="delivery icon" />
+            <h3>Home Delivery</h3>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            World
+          </td>
+          <td>
+            Op-Ed Columnists
+          </td>
+          <td>
+            Art & Design
+          </td>
+          <td>
+            Crossword
+          </td>
+          <td>
+            Wirecutter
+          </td>
+          <td class="footerMenu__big">
+            <img src="assets/icon/T.png" alt="Times icon" />
+            <h3>Digital Subscriptions</h3>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            U.S.
+          </td>
+          <td>
+            Editorials
+          </td>
+          <td>
+            Books
+          </td>
+          <td>
+            Education
+          </td>
+          <td>
+            Live Events
+          </td>
+          <td class="footerMenu__big">
+            <img src="assets/icon/cross.png" alt="crossword icon" />
+            <h3>Crossword</h3>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Politics
+          </td>
+          <td>
+            Op-Ed Contributors
+          </td>
+          <td>
+            Dance
+          </td>
+          <td>
+            Food
+          </td>
+          <td>
+            The Learning Network
+          </td>
+          <td class="footerMenu__big">
+            <img src="assets/icon/cook.png" alt="cook icon" />
+            <h3>Cooking</h3>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Election 2020
+          </td>
+          <td>
+            Letters
+          </td>
+          <td>
+            Movies
+          </td>
+          <td>
+            Health
+          </td>
+          <td>
+            Tools & Service
+          </td>
+          <td class="footerMenu__big">&nbsp;</td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            New York
+          </td>
+          <td>
+            Sunday Review
+          </td>
+          <td>
+            Music
+          </td>
+          <td>
+            Jobs
+          </td>
+          <td>
+            N.Y.C. Events Guide
+          </td>
+          <td class="footerMenu__small">
+            <small>Email Newsletter</small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Business
+          </td>
+          <td>
+            Video: Opinion
+          </td>
+          <td>
+            Pop Culture
+          </td>
+          <td>
+            Magazine
+          </td>
+          <td>
+            Multimedia
+          </td>
+          <td class="footerMenu__small">
+            <small>Cormporate Subscriptions</small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Tech
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            Television
+          </td>
+          <td>
+            Parenting
+          </td>
+          <td>
+            Photography
+          </td>
+          <td class="footerMenu__small">
+            <small>Education rate</small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Science
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            Theater
+          </td>
+          <td>
+            Real State
+          </td>
+          <td>
+            Video
+          </td>
+          <td class="footerMenu__small --hr">&nbsp;</td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Sports
+          </td>
+          <td>&nbsp;</td>
+          <td>
+            Video: Arts
+          </td>
+          <td>
+            Style
+          </td>
+          <td>
+            Newsletters
+          </td>
+          <td class="footerMenu__small">
+            <small>Mobile Aplication</small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Obituaries
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>
+            T Magazine
+          </td>
+          <td>
+            NYT Store
+          </td>
+          <td class="footerMenu__small">
+            <small>Replica Edition</small>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Today's Paper
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>
+            Travel
+          </td>
+          <td>
+            Time Journeys
+          </td>
+          <td class="footerMenu__small">
+            <a href="https://www.nytimes.com/es/"><small>Español</small></a>
+          </td>
+        </tr>
+        <tr class="footerMenu__row">
+          <td>
+            Corrections
+          </td>
+          <td>&nbsp;</td>
+          <td>&nbsp;</td>
+          <td>
+            Love
+          </td>
+          <td>
+            Manage My Account
+          </td>
+          <td class="footerMenu__small">
+            <a href="https://cn.nytimes.com/"><small>中文网</small></a>
+          </td>
+        </tr>
+      </table>
+
+      <nav>
+        <ul class="footerNav">
+          <li class="footerNav__items">
+            <a
+              href="https://help.nytimes.com/hc/en-us/articles/115014792127-Copyright-notice"
+            >
+              © 2019 The New York Times Company
+            </a>
+          </li>
+          <li class="footerNav__items">Contact Us</li>
+          <li class="footerNav__items">Work with us</li>
+          <li class="footerNav__items">Advertise</li>
+          <li class="footerNav__items">T Brand Studio</li>
+          <li class="footerNav__items">Your Ad Choices</li>
+          <li class="footerNav__items">Privacy</li>
+          <li class="footerNav__items">Terms of Service</li>
+          <li class="footerNav__items">Terms of Sale</li>
+          <li class="footerNav__items">Site Map</li>
+          <li class="footerNav__items">Help</li>
+          <li class="footerNav__items">Subscriptions</li>
+        </ul>
+      </nav>
+    </footer>
+    <div class="overlay">
+      <div class="overlay__center">
+        Subscribe to the New York Times
+      </div>
+      <div class="overlay__right">
+        <a href="#" class="overlay__subscribe">
+          SUBSCRIBE
+          <img src="assets/icon/right-chevron.png" alt="Advance" />
+        </a>
+      </div>
+    </div>
   </body>
 </html>
