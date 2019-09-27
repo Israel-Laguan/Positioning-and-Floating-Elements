@@ -654,6 +654,47 @@ body {
   top: 2100px;
 }
 
+.related {
+  width: 100vw;
+}
+
+.gallery {
+  margin-top: 70px;
+  border-top: 1px solid black;
+  float: left;
+  margin-left: 70px;
+}
+
+.gallery__caption {
+  float: right;
+}
+
+.gallery__title {
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.gallery__description {
+  clear: right;
+  font-size: 18px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+}
+
+.gallery__articlePreview {
+  width: 270px;
+  height: 300px;
+}
+
+.gallery__articlePreview > img {
+  width: 270px;
+}
+
+.gallery__articlePreview > small {
+  font-size: 9px;
+  color: #636363;
+}
+
 .footerSeparator {
   width: 68vw;
   height: 1px;

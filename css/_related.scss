@@ -1,0 +1,39 @@
+.related {
+  width: 100vw;
+}
+
+.gallery {
+  margin-top: 70px;
+  border-top: 1px solid black;
+  float: left;
+  margin-left: 70px;
+
+  &__caption {
+    float: right;
+  }
+
+  &__title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    clear: right;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  &__articlePreview {
+    width: 270px;
+    height: 300px;
+
+    & > img {
+      width: 270px;
+    }
+    & > small {
+      font-size: 9px;
+      color: rgb(99, 99, 99);
+    }
+  }
+}
