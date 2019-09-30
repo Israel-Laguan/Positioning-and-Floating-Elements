@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800&display=swap");
+
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -20,14 +21,10 @@ body {
   line-height: 1.3;
   color: #222;
   margin: 0;
-  position: relative;
 }
 
 main {
   display: block;
-  width: 100%;
-  text-align: center;
-  margin-bottom: 90px;
 }
 
 template {
@@ -52,7 +49,7 @@ dd {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -104,7 +101,7 @@ a {
 abbr[title] {
   border-bottom: none;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -140,7 +137,7 @@ sup {
 
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -252,7 +249,7 @@ fieldset {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -331,7 +328,7 @@ progress {
 
 .navItems > span:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .navLogo {
@@ -350,6 +347,16 @@ progress {
   font-weight: bolder;
   text-align: center;
   height: 30px;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+body {
+  position: relative;
 }
 
 .content {
@@ -401,7 +408,7 @@ progress {
 .caption__credits {
   padding-bottom: 40px;
   font-size: 12px;
-  color: #999999;
+  color: #999;
 }
 
 .--captionContent {
@@ -453,8 +460,8 @@ progress {
 
 .InflationDiagram__separator {
   -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  -ms-grid-row-align: left;
+  align-self: left;
   text-align: left;
   margin-left: 40px;
 }
@@ -571,7 +578,7 @@ progress {
 
 .gallery {
   border-top: 1px solid black;
-  width: 857px;
+  width: 858px;
 }
 
 .gallery__caption {
@@ -660,7 +667,7 @@ footer > nav {
 .footerMenu small:hover,
 .footerMenu td:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .footerMenu__goTo {
@@ -675,7 +682,8 @@ footer > nav {
   color: #4e4e4e;
 }
 
-.footerMenu__big, .footerMenu__small {
+.footerMenu__big,
+.footerMenu__small {
   padding-left: 10px;
   border-left: 1px solid #e7e7e7;
 }
@@ -753,4 +761,3 @@ footer > nav {
   float: right;
   height: 14px;
 }
-/*# sourceMappingURL=main.css.map */
