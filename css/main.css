@@ -1,10 +1,11 @@
 @import url("https://fonts.googleapis.com/css?family=Libre+Franklin:200,400,700,900&display=swap");
 @import url("https://fonts.googleapis.com/css?family=Neuton:300,400,400i,700,800&display=swap");
+
 *,
 *::before,
 *::after {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 html {
@@ -48,7 +49,7 @@ dd {
 
 hr {
   -webkit-box-sizing: content-box;
-          box-sizing: content-box;
+  box-sizing: content-box;
   height: 0;
   overflow: visible;
 }
@@ -101,7 +102,7 @@ abbr[title] {
   border-bottom: none;
   text-decoration: underline;
   -webkit-text-decoration: underline dotted;
-          text-decoration: underline dotted;
+  text-decoration: underline dotted;
 }
 
 b,
@@ -137,7 +138,7 @@ sup {
 
 legend {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   color: inherit;
   display: table;
   max-width: 100%;
@@ -249,7 +250,7 @@ fieldset {
 [type="checkbox"],
 [type="radio"] {
   -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
   padding: 0;
 }
 
@@ -280,6 +281,11 @@ progress {
   height: 40px;
   border-bottom: 1px solid #d6d6d6;
   font-family: "Libre Franklin", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 
 .navbar {
@@ -328,7 +334,7 @@ progress {
 
 .navItems > span:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .navLogo {
@@ -379,7 +385,7 @@ footer > nav {
 .footerMenu small:hover,
 .footerMenu td:hover {
   -webkit-text-decoration: underline solid black;
-          text-decoration: underline solid black;
+  text-decoration: underline solid black;
 }
 
 .footerMenu__goTo {
@@ -394,7 +400,8 @@ footer > nav {
   color: #4e4e4e;
 }
 
-.footerMenu__big, .footerMenu__small {
+.footerMenu__big,
+.footerMenu__small {
   padding-left: 10px;
   border-left: 1px solid #e7e7e7;
 }
@@ -431,7 +438,7 @@ footer > nav {
 
 .footerNav__items {
   display: inline;
-  margin: 0px 10px;
+  margin: 0 10px;
 }
 
 main {
@@ -479,7 +486,7 @@ body {
 }
 
 .content__mainContent > p {
-  margin: 20px 0px;
+  margin: 20px 0;
 }
 
 .caption {
@@ -492,7 +499,7 @@ body {
 .caption__credits {
   padding-bottom: 40px;
   font-size: 12px;
-  color: #999999;
+  color: #999;
 }
 
 .--captionContent {
@@ -501,7 +508,7 @@ body {
 
 .InflationDiagram {
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
 }
 
 .InflationDiagram__header {
@@ -544,8 +551,8 @@ body {
 
 .InflationDiagram__separator {
   -ms-flex-item-align: left;
-      -ms-grid-row-align: left;
-      align-self: left;
+  -ms-grid-row-align: left;
+  align-self: left;
   text-align: left;
   margin-left: 40px;
 }
@@ -591,7 +598,7 @@ body {
 
 .--resized {
   width: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .--underContent {
@@ -609,7 +616,7 @@ body {
 .sidebar {
   position: absolute;
   top: 1100px;
-  right: 0px;
+  right: 0;
   width: 400px;
 }
 
@@ -685,7 +692,7 @@ body {
   display: inline-block;
   width: 270px;
   height: 300px;
-  margin: 10px 13px 10px 0px;
+  margin: 10px 13px 10px 0;
 }
 
 .gallery__articlePreview > img {
@@ -712,7 +719,7 @@ body {
   font-family: "Neuton";
   line-height: 29px;
   font-size: 20px;
-  margin: 15px 0px;
+  margin: 15px 0;
 }
 
 .mostPopular > hr {
@@ -729,8 +736,8 @@ body {
 
 .overlay {
   font-family: "Libre Franklin", sans-serif;
-  position: absolute;
-  bottom: 0px;
+  position: fixed;
+  bottom: 0;
   width: 100%;
   display: block;
   border-top: 1px solid black;
@@ -741,7 +748,7 @@ body {
   position: absolute;
   padding: 19px;
   width: 57%;
-  bottom: 0px;
+  bottom: 0;
   text-align: right;
 }
 
@@ -750,13 +757,12 @@ body {
   float: right;
   width: 30%;
   padding: 20px 5px;
-  bottom: 0px;
+  bottom: 0;
   text-align: right;
 }
 
 .overlay__subscribe > img {
-  padding: 0px 200px 0px 35px;
+  padding: 0 200px 0 35px;
   float: right;
   height: 14px;
 }
-/*# sourceMappingURL=main.css.map */

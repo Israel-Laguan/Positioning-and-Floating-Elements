@@ -2,6 +2,11 @@
   height: 40px;
   border-bottom: 1px solid rgb(214, 214, 214);
   font-family: "Libre Franklin", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
 }
 
 .navbar {
@@ -23,6 +28,7 @@
   &__right {
     top: 50px;
     float: right;
+
     & > a {
       float: right;
     }
