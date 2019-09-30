@@ -724,7 +724,6 @@ body {
 
 .mostPopular > hr {
   border: 0.5px solid #e2e2e2;
-  background-color: aqua;
   color: white;
 }
 
@@ -738,6 +737,8 @@ body {
   font-family: "Libre Franklin", sans-serif;
   position: fixed;
   bottom: 0;
+  right: 0;
+  left: 0;
   width: 100%;
   display: block;
   border-top: 1px solid black;

@@ -27,12 +27,12 @@
     display: inline-block;
     width: 270px;
     height: 300px;
-    margin: 10px 13px 10px 0px;
-
+    margin: 10px 13px 10px 0;
 
     & > img {
       width: 270px;
     }
+
     & > small {
       font-size: 9px;
       color: rgb(99, 99, 99);
@@ -40,7 +40,7 @@
   }
 }
 
-.mostPopular{
+.mostPopular {
   float: right;
   border-top: 1px solid black;
   width: 300px;
@@ -50,16 +50,15 @@
     margin-bottom: 20px;
   }
 
-  &>p{
+  & > p {
     font-family: "Neuton";
     line-height: 29px;
     font-size: 20px;
-    margin: 15px 0px;
+    margin: 15px 0;
   }
 
-  &>hr{
+  & > hr {
     border: 0.5px solid rgb(226, 226, 226);
-    background-color: aqua;
-    color:white; 
+    color: white;
   }
 }
