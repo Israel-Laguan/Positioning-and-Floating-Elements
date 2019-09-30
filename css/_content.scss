@@ -41,7 +41,8 @@ body {
     clear: both;
 
     & > p {
-      margin: 20px 0px;
+      margin-top: 20px;
+      margin-bottom: 20px;
     }
   }
 }
@@ -65,7 +66,7 @@ body {
 
 .InflationDiagram {
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
 
   &__header {
     font-family: "Neuton", serif;
@@ -153,7 +154,7 @@ body {
 
 .--resized {
   width: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .--underContent {

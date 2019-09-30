@@ -27,11 +27,12 @@
     display: inline-block;
     width: 270px;
     height: 300px;
-    margin: 10px 13px 10px 0px;
+    margin: 10px 13px 10px 0;
 
     & > img {
       width: 270px;
     }
+
     & > small {
       font-size: 9px;
       color: rgb(99, 99, 99);
@@ -53,7 +54,7 @@
     font-family: "Neuton";
     line-height: 29px;
     font-size: 20px;
-    margin: 15px 0px;
+    margin: 15px 0;
   }
 
   & > hr {
