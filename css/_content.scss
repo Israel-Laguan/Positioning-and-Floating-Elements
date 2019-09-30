@@ -41,7 +41,7 @@ body {
     clear: both;
 
     & > p {
-      margin: 20px 0px;
+      margin: 20px 0;
     }
   }
 }
@@ -54,7 +54,6 @@ body {
 
   &__credits {
     padding-bottom: 40px;
-
     font-size: 12px;
     color: rgb(153, 153, 153);
   }
@@ -66,7 +65,7 @@ body {
 
 .InflationDiagram {
   width: 1000px;
-  margin: 0px auto;
+  margin: 0 auto;
 
   &__header {
     font-family: "Neuton", serif;
@@ -154,7 +153,7 @@ body {
 
 .--resized {
   width: 28px;
-  margin-bottom: 0px;
+  margin-bottom: 0;
 }
 
 .--underContent {
