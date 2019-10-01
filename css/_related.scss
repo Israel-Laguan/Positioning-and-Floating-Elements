@@ -1,0 +1,64 @@
+.related {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.gallery {
+  border-top: 1px solid black;
+  width: 857px;
+
+  &__caption {
+    float: right;
+  }
+
+  &__title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  &__description {
+    clear: right;
+    font-size: 18px;
+    margin-bottom: 5px;
+    margin-top: 15px;
+  }
+
+  &__articlePreview {
+    display: inline-block;
+    width: 270px;
+    height: 300px;
+    margin: 10px 13px 10px 0;
+
+    & > img {
+      width: 270px;
+    }
+
+    & > small {
+      font-size: 9px;
+      color: rgb(99, 99, 99);
+    }
+  }
+}
+
+.mostPopular {
+  float: right;
+  border-top: 1px solid black;
+  width: 300px;
+
+  &__title {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  & > p {
+    font-family: "Neuton";
+    line-height: 29px;
+    font-size: 20px;
+    margin: 15px 0;
+  }
+
+  & > hr {
+    border: 0.5px solid rgb(226, 226, 226);
+    color: white;
+  }
+}
